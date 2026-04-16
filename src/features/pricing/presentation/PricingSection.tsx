@@ -48,28 +48,28 @@ export const PricingSection = () => {
             Pick a plan that fits your operation, from first transactions to enterprise scale.
           </p>
 
-          <div className="mt-8 flex flex-col lg:flex-row items-center justify-center gap-5 text-sm font-medium">
-            <div className="flex items-center gap-3">
-              <span className="text-secondary">Plan type:</span>
-              <div className="bg-white p-1 rounded-full border border-border flex">
-                <button type="button" className="bg-primary text-white px-5 py-1.5 rounded-full">
+          <div className="mt-12 flex flex-col lg:flex-row items-center justify-center gap-8 lg:gap-12 text-sm font-medium">
+            <div className="flex flex-col md:flex-row items-center gap-3">
+              <span className="text-secondary opacity-70">Plan type:</span>
+              <div className="bg-white p-1 rounded-full border border-gray-100 flex shadow-sm">
+                <button type="button" className="bg-primary text-white px-6 py-1.5 rounded-full text-xs md:text-sm">
                   Business
                 </button>
-                <button type="button" className="text-secondary px-5 py-1.5">
+                <button type="button" className="text-secondary px-6 py-1.5 text-xs md:text-sm">
                   Enterprise
                 </button>
               </div>
             </div>
-            <div className="flex items-center gap-3">
-              <span className="text-secondary">Billing cycle:</span>
-              <div className="bg-white p-1 rounded-full border border-border flex">
-                <button type="button" className="bg-primary text-white px-5 py-1.5 rounded-full">
+            <div className="flex flex-col md:flex-row items-center gap-3">
+              <span className="text-secondary opacity-70">Billing cycle:</span>
+              <div className="bg-white p-1 rounded-full border border-gray-100 flex shadow-sm">
+                <button type="button" className="bg-primary text-white px-5 py-1.5 rounded-full text-xs md:text-sm">
                   Monthly
                 </button>
-                <button type="button" className="text-secondary px-5 py-1.5">
+                <button type="button" className="text-secondary px-5 py-1.5 text-xs md:text-sm">
                   Quarterly
                 </button>
-                <button type="button" className="text-secondary px-5 py-1.5">
+                <button type="button" className="text-secondary px-5 py-1.5 text-xs md:text-sm">
                   Yearly
                 </button>
               </div>
