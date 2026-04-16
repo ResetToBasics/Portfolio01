@@ -59,7 +59,7 @@ const benefitCards: Array<{
 
 export const BenefitsSection = () => {
   return (
-    <section className="w-full bg-white py-20 pb-32">
+    <section id="benefits" className="scroll-mt-28 w-full bg-white py-20 pb-32">
       <div className="max-w-7xl mx-auto px-6">
 
         {/* Restored Header */}

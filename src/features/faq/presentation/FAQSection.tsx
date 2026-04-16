@@ -71,7 +71,7 @@ const FAQCard = ({ number, title, text, bgColor, pinColor, rotation }: FAQItem) 
 
 export const FAQSection = () => {
   return (
-    <section className="w-full bg-white py-20 md:py-24 px-4">
+    <section id="faq" className="scroll-mt-28 w-full bg-white py-20 md:py-24 px-4">
       <div className="max-w-7xl mx-auto relative">
         <div className="absolute -top-10 left-0 animate-bounce hidden md:block">
           <Landmark size={48} className="text-blue-200" />

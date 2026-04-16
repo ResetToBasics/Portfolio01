@@ -10,7 +10,7 @@ import bankingHero from "@/shared/assets/images/bank2.png";
 
 export const HeroSection = () => {
   return (
-    <section className="flex-1 w-full max-w-7xl mx-auto px-6 pt-14 md:pt-20 pb-12 md:pb-20 grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-x-12 items-center animate-fade-in">
+    <section id="hero" className="scroll-mt-28 flex-1 w-full max-w-7xl mx-auto px-6 pt-24 md:pt-28 lg:pt-36 pb-12 md:pb-20 grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-x-12 items-center animate-fade-in">
       {/* 1. Title - Always on top in mobile, Top-Left in desktop */}
       <div className="order-1 lg:col-start-1 lg:row-start-1 text-center lg:text-left pt-6 lg:pt-0">
         <h1 className="text-4xl md:text-5xl lg:text-[56px] font-semibold leading-[1.1] tracking-tight">
@@ -115,4 +115,3 @@ export const HeroSection = () => {
     </section>
   );
 };
-

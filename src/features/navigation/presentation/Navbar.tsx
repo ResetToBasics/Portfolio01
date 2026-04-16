@@ -3,7 +3,7 @@
 import React, { useState, useEffect } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
-import { motion, AnimatePresence } from 'framer-motion';
+import { motion } from 'framer-motion';
 import logo from '@/shared/assets/images/logo.svg';
 import { Button } from '@/shared/components/ui/button/Button';
 import { ChevronDown } from 'lucide-react';
@@ -37,19 +37,25 @@ export const Navbar = () => {
           y: isScrolled ? 12 : 0
         }}
         transition={{ type: "spring", stiffness: 260, damping: 26 }}
-        className="flex items-center justify-between py-3 h-16 pointer-events-auto"
+        className="relative flex items-center justify-between py-3 h-16 pointer-events-auto"
       >
         <Link href="/" className="flex items-center gap-2 cursor-pointer shrink-0">
           <Image src={logo} alt="Monotree Logo" width={133} height={40} className="h-6 w-auto" priority />
         </Link>
 
-        <ul className="hidden md:flex items-center gap-8 text-[14px] font-medium text-gray-700 mx-12">
-          <li className="flex items-center gap-1 cursor-pointer hover:text-black transition-colors">
-            Accounts <ChevronDown className="w-4 h-4 opacity-50" />
+        <ul className="hidden md:flex items-center gap-10 text-[14px] font-medium text-gray-700 absolute left-1/2 -translate-x-1/2">
+          <li>
+            <Link href="#hero" className="hover:text-black transition-colors">Overview</Link>
           </li>
-          <li className="cursor-pointer hover:text-black transition-colors">Cards</li>
-          <li className="cursor-pointer hover:text-black transition-colors">Wealth</li>
-          <li className="cursor-pointer hover:text-black transition-colors">Security</li>
+          <li>
+            <Link href="#benefits" className="hover:text-black transition-colors">Benefits</Link>
+          </li>
+          <li>
+            <Link href="#pricing" className="hover:text-black transition-colors">Pricing</Link>
+          </li>
+          <li>
+            <Link href="#faq" className="hover:text-black transition-colors">FAQ</Link>
+          </li>
         </ul>
 
         <div className="flex items-center gap-4 shrink-0">
