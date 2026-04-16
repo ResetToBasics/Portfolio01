@@ -75,7 +75,7 @@ export const Footer = () => {
               Ready to automate your financial future?
             </h2>
             <p className="text-secondary text-lg leading-relaxed">
-              Join thousands of users who are already banking with Drova.
+              Join thousands of users who are already banking with Dovra.
             </p>
           </div>
           <Link 
@@ -91,7 +91,7 @@ export const Footer = () => {
         <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-12 mb-20">
           <div className="col-span-2 lg:col-span-1">
             <Link href="/" className="inline-block mb-6">
-              <Image src={logo} alt="Drova Logo" width={133} height={40} className="h-7 w-auto" />
+              <Image src={logo} alt="Dovra Logo" width={133} height={40} className="h-7 w-auto" />
             </Link>
             <p className="text-secondary text-sm leading-relaxed mb-8 max-w-[240px]">
               The next generation of banking, built for speed and scales with your growth.
@@ -130,7 +130,7 @@ export const Footer = () => {
 
         {/* Bottom Bar */}
         <div className="pt-8 border-t border-gray-50 flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-gray-400">
-          <p>© {new Date().getFullYear()} Drova Inc. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} Dovra Inc. All rights reserved.</p>
           <div className="flex gap-8">
             <Link href="#" className="hover:text-primary transition-colors">Security</Link>
             <Link href="#" className="hover:text-primary transition-colors">System Status</Link>

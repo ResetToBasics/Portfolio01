@@ -25,7 +25,7 @@ export const PaymentWidget = () => {
       <div className="bg-white rounded-[32px] p-7 w-full shadow-[0_10px_40px_rgba(0,0,0,0.06)] border border-gray-100 flex flex-col gap-6">
         <div className="flex justify-between items-center">
           <div className="bg-muted border-none rounded-xl py-2.5 px-4 flex items-center gap-2 text-base font-medium text-primary">
-            Drova inc
+            Dovra Inc
             <ChevronDown className="w-4 h-4 opacity-40" />
           </div>
           
